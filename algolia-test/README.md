@@ -1,4 +1,4 @@
-By Svend stherkil@student.42.fr
+By Svend stherkil@student.42.fr \\
 This DEMO project is a part of Algolia's recruitment process, and was completed in 3-4 hours.
 
 ## To run the project, execute
