@@ -5,7 +5,7 @@ This DEMO project is a part of Algolia's recruitment process, and was completed 
 
 ### `npm start`
 
-## description
+## Description
 
 The project was built on top of an InstantSearch template.
 
