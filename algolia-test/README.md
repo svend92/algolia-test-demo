@@ -3,6 +3,8 @@ This DEMO project is a part of Algolia's recruitment process, and was completed 
 
 ## To run the project, execute
 
+
+### `npm install`
 ### `npm start`
 
 ## Description
