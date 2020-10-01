@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/algolia-test-demo/static/css/main.18497b71.chunk.css",
+    "main.js": "/algolia-test-demo/static/js/main.748c32e3.chunk.js",
+    "main.js.map": "/algolia-test-demo/static/js/main.748c32e3.chunk.js.map",
+    "runtime-main.js": "/algolia-test-demo/static/js/runtime-main.a23f7ff0.js",
+    "runtime-main.js.map": "/algolia-test-demo/static/js/runtime-main.a23f7ff0.js.map",
+    "static/js/2.33f8dd3c.chunk.js": "/algolia-test-demo/static/js/2.33f8dd3c.chunk.js",
+    "static/js/2.33f8dd3c.chunk.js.map": "/algolia-test-demo/static/js/2.33f8dd3c.chunk.js.map",
+    "index.html": "/algolia-test-demo/index.html",
+    "precache-manifest.a3c411b99330ad2d570eead93068b44a.js": "/algolia-test-demo/precache-manifest.a3c411b99330ad2d570eead93068b44a.js",
+    "service-worker.js": "/algolia-test-demo/service-worker.js",
+    "static/css/main.18497b71.chunk.css.map": "/algolia-test-demo/static/css/main.18497b71.chunk.css.map",
+    "static/js/2.33f8dd3c.chunk.js.LICENSE.txt": "/algolia-test-demo/static/js/2.33f8dd3c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a23f7ff0.js",
+    "static/js/2.33f8dd3c.chunk.js",
+    "static/css/main.18497b71.chunk.css",
+    "static/js/main.748c32e3.chunk.js"
+  ]
+}
