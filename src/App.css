@@ -158,6 +158,7 @@ h2 {
 }
 
 .left-panel {
+  min-width: 80vh;
   float: left;
   width: 40vh;
 }
@@ -165,7 +166,6 @@ h2 {
 .right-panel {
   flex-direction: column;
   padding-left: 10vh;
-  max-width: 150vh;
   display: flex;
   padding-bottom: 2vh;
 }
@@ -223,7 +223,7 @@ background-color: tomato;
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
   .left-panel {
       display: none;
   }
