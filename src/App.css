@@ -20,6 +20,11 @@ h2 {
   padding-bottom: 2vh;
 }
 
+.content-middle{
+  margin-left: 5vmin;
+  display: flex;
+}
+
 .navbar {
   z-index:1;
   top: 0; left: 0; right: 0;
@@ -66,7 +71,7 @@ h2 {
 .ais-SearchBox {
   margin: 1em 0;
   height: 64px;
-  width: 740px;
+  width: 80vw;
 }
 
 .ais-SearchBox .ais-SearchBox-input {
@@ -75,10 +80,6 @@ h2 {
   box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.2);
   font-family: Hind, sans-serif;
   height: 64px;
-  /*
-    The "Hind" font family is vertically off-balance.
-    Adding 4px of padding top makes it more vertically aligned.
-  */
   padding: 4px 48px 0 64px;
 }
 
@@ -178,15 +179,16 @@ h2 {
 
 .ais-Hits-item {
   margin-bottom: 1em;
-  min-width: 150vh;
+  min-width: 50vh;
 }
 
-.ais-Hits-item img {
+.ais-Hits-item img {  
   margin-right: 1em;
 }
 
 .hit-name {
   margin-bottom: .5em;
+  font-weight: bold;
 }
 
 .hit-description {
@@ -196,7 +198,7 @@ h2 {
 }
 
 .ais-Hits-list {
-  display: grid;
+  
 }
 
 .div-footer{
@@ -224,29 +226,5 @@ background-color: tomato;
 @media only screen and (max-width: 1200px) {
   .left-panel {
       display: none;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .imgblock {
-      display: flex;
-  }
-  .ais-Hits-item {
-    min-width: 100vh;
-  }
-  .ais-SearchBox {
-    width: 600px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .imgblock {
-      display: flex;
-  }
-  .ais-Hits-item {
-    min-width: 65vh;
-  }
-  .ais-SearchBox {
-    width: 380px;
   }
 }

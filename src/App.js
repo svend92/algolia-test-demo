@@ -90,6 +90,7 @@ class App extends Component {
 }
 
 function Hit(props) {
+  console.log(props.hit);
   return (
     <>
     <div className="imgblock">
@@ -115,7 +116,7 @@ function Hit(props) {
       <div className="hit-description">
         <Highlight attribute="year" hit={props.hit} />
       </div>
-      <div className="hit-description">
+      <div className="hit-description"> 
         <Highlight attribute="genre" hit={props.hit} />
       </div>
       </div>
